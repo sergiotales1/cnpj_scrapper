@@ -8,4 +8,6 @@ members = ["scrapper"]
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
+lettre = "0.10.0-rc.4"
 scrapper ={ path = "./scrapper"}
+dotenv = "0.15.0"
