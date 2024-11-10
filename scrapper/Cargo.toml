@@ -1,11 +1,9 @@
 [package]
-name = "my-automation-project"
+name = "scrapper"
 version = "0.1.0"
 edition = "2021"
 
-[workspace]
-members = ["scrapper"]
-
 [dependencies]
+thirtyfour = "0.34.0"
 tokio = { version = "1", features = ["full"] }
-scrapper ={ path = "./scrapper"}
+csv = "1.1"
